@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="container">
+        {% if number ==1%}
+            <h1> Page number 1</h1>
+            <h2> Hello 1 {{user.name}} </h2>
+        {% endif %}
+        {% if number ==2 %}
+            <h1> Page number 2</h1>
+            <h2> Hello 2 {{user.name}} </h2>
+        {% endif %}
+    </div>
+{% endblock %}

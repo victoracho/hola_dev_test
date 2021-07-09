@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello RegisterController!{% endblock %}
+
+{% block body %}
+{{ form_start(form) }}
+<style>
+.required {
+    margin: 5px;
+}       
+</style>
+<div class="container">
+    <h1 class="h3 mb-3 font-weight-normal">Please Register</h1>
+    <br>
+    {{ form_row(form.name) }}
+    <br />
+    {{ form_row(form.username) }}
+    <br />
+    {{ form_row(form.password) }}
+    <br />
+    <label for="user_password" class="required">Roles</label>
+    <br />
+    {{ form_row(form.roles) }}
+    <br />
+    <button class="btn btn-lg btn-primary" type="submit">
+        Register
+    </button>
+</div>
+{{ form_end(form) }}
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <h1>Hello There! </h1>
+    <h2> this is the dev test for Victor Gonzalez </h2>
+    <p> In order to create a user click on register and fill all the fields, then select the right roles </p>
+    Each roles are described as follows:
+    <ul>
+        <li><strong> ROLE_ADMIN </strong> will allow you to access on page/1, page/2 and use the API crud.</li>
+        <li><strong> ROLE_PAGE_1 </strong> will allow you to access on page/1 only.</li>
+        <li><strong> ROLE_PAGE_2 </strong> will allow you to access on page/2 only.</li></ul>
+    </ul>
+</div>
+{% endblock %}
