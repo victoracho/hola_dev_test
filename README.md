@@ -11,6 +11,7 @@ Technical requirements
 - Persistence layer: files or database
 - Coding Style: PSR-2
 - Mysql: 8
+- unit tests: not used
 
 Configuration
 -------------
