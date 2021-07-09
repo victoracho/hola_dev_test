@@ -14,7 +14,7 @@ Technical requirements
 
 Configuration
 -------------
-In order to create the database you have to configure the DATABASE_URL on .env, simply by editing this line.
+In order to create the database you have to configure the DATABASE_URL on .env, simply by uncommenting and editing this line.
 
 `# DATABASE_URL="mysql://user:password@127.0.0.1:3306/hola?serverVersion=13&charset=utf8"
 `
