@@ -1,14 +1,16 @@
+Name
+-------------
 hola_dev_test is a Symfony 4.4 with PHP test for the Hola Magazine. 
 
 Technical requirements
 -------------
-Language: PHP 7.2+
-Webserver: PHP native
-Package manager: composer
-PHP Framework: not required
-Persistence layer: files or database
-Coding Style: PSR-2
-Mysql: 8
+- Language: PHP 7.2+
+- Webserver: PHP native
+- Package manager: composer
+- PHP Framework: not required
+- Persistence layer: files or database
+- Coding Style: PSR-2
+- Mysql: 8
 
 Configuration
 -------------
@@ -38,9 +40,9 @@ This app consists on 3 roles :
 ROLE_ADMIN, ROLE_PAGE_1 and ROLE_PAGE_2
 
 with:
-ROLE_ADMIN You can use the api crud, and check page/1 and page/2.
-ROLE_PAGE_1 You can only check PAGE_1.
-ROLE_PAGE_2 You can only check PAGE_2.
+- ROLE_ADMIN You can use the api crud, and check page/1 and page/2.
+- ROLE_PAGE_1 You can only check PAGE_1.
+- ROLE_PAGE_2 You can only check PAGE_2.
 
 To go on through the test simply create an ROLE_ADMIN user and then login clicking on the navbar options.
 
