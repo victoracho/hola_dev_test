@@ -14,8 +14,8 @@ Configuration
 -------------
 In order to create the database you have to configure the DATABASE_URL on .env
 
-```# DATABASE_URL="mysql://user:password@127.0.0.1:3306/hola?serverVersion=13&charset=utf8"
-```
+`# DATABASE_URL="mysql://user:password@127.0.0.1:3306/hola?serverVersion=13&charset=utf8"
+`
 
 Installation
 ------------
@@ -34,11 +34,13 @@ After that install the schema:
 
 Usage
 -----
-This app consists on 3 ROLE_ADMIN, ROLE_PAGE_1. ROLE_PAGE_2
+This app consists on 3 roles :
+ROLE_ADMIN, ROLE_PAGE_1 and ROLE_PAGE_2
+
 with:
 ROLE_ADMIN You can use the api crud, and check page/1 and page/2.
-ROLE_PAGE_1 You can only check PAGE_1
-ROLE_PAGE_2 You can only check PAGE_2
+ROLE_PAGE_1 You can only check PAGE_1.
+ROLE_PAGE_2 You can only check PAGE_2.
 
 To go on through the test simply create an ROLE_ADMIN user and then login clicking on the navbar options.
 
