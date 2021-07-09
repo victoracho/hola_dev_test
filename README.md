@@ -33,6 +33,11 @@ Then create the database:
 After that install the schema:
 `php bin/console doctrine:schema:update --force`
 
+If you use symfony cli, just run:
+`symfony serve -d`
+
+If not, then:
+`php bin/console server:run`
 
 Usage
 -----
