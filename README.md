@@ -44,7 +44,7 @@ with:
 - ROLE_PAGE_1 You can only check PAGE_1.
 - ROLE_PAGE_2 You can only check PAGE_2.
 
-To go on through the test simply create an ROLE_ADMIN user and then login clicking on the navbar options.
+To go on through the test simply register an ROLE_ADMIN user and then login clicking on the navbar options.
 
 
 Made by
