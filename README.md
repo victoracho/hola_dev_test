@@ -8,7 +8,7 @@ Technical requirements
 - Webserver: PHP native
 - Package manager: composer
 - PHP Framework: Symfony 4.4
-- Persistence layer: files or database
+- Persistence layer: database
 - Coding Style: PSR-2
 - Mysql: 8
 - unit tests: not used
