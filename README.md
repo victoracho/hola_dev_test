@@ -7,7 +7,7 @@ Technical requirements
 - Language: PHP 7.2+
 - Webserver: PHP native
 - Package manager: composer
-- PHP Framework: not required
+- PHP Framework: Symfony 4.4
 - Persistence layer: files or database
 - Coding Style: PSR-2
 - Mysql: 8
